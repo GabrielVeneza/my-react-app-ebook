@@ -1,3 +1,37 @@
+<h1><b>Git</b></h1>
+
+<b>Setar usuário</b>
+```
+    git config --global user.name "Leonardo Comelli"
+```
+
+<b>Setar email</b>
+```
+ git config --global user.email leonardo@software-ltda.com.br
+```
+
+<b>Setar editor</b>
+```
+ git config --global core.editor vim
+```
+
+<b>Setar ferramenta de merge</b>
+```
+ git config --global merge.tool vimdiff
+```
+
+<b>Searquivos a serem ignorados</b>
+```
+ git config --global core.excludesfile ~/.gitignore
+```
+
+<b>Listar configurações</b>
+```
+ git config --list
+```
+
+
+<br/>
 <h1><b>Arrow Function</b></h1>
 
 • Função tradicional:
@@ -138,3 +172,4 @@ const person ={
         )
     }
 ```
+

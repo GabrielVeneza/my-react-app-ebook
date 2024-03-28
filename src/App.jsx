@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-
-
 import Jsbasico from './jsbasico'
 
 
