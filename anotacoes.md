@@ -173,3 +173,47 @@ const person ={
     }
 ```
 
+<h1>Condição em view no React</h1>
+
+<b>Operador ternário</b>
+
+```jsx
+const userName = "Gabriel"
+const isLoggedIn = false
+
+function Greeting(){
+    return(
+        <div>
+            <h1>
+                {isLoggedIn? "Bem-vindo de volta!":"Por favor, faça o login."}
+            </h1>
+        </div>
+    )
+}
+
+export default Greeting;
+```
+<h1>Atributos Dinâmicost</h1>
+
+```jsx
+    function handleClick(){
+    alert('Botão Clicado')
+}
+
+function Button(props){
+    return(
+        <button onClick={handleClick} className="{props.className">{props.label}</button>
+    )
+}
+
+function Greeting(){
+    return(
+        <div>
+            <Button click = "handleClick()" className = "button" label = "Me CLique"/>
+        </div>
+    )
+}
+
+export default Greeting
+
+```

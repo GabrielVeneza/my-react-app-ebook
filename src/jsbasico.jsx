@@ -103,7 +103,7 @@ export default function Jsbasico(){
     console.log(ev2)
     console.log(ev3)
 
-    // EXERCÍCIOS ----------------------------------------------
+    // EXERCÍCIOS ----------------------------------------------    
     
 
     return(
