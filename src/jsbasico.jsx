@@ -103,6 +103,7 @@ export default function Jsbasico(){
     // console.log(ev2)
     // console.log(ev3)
 
+<<<<<<< HEAD
     // EXERCÍCIOS ----------------------------------------------
 
     const alunos = [
@@ -121,6 +122,10 @@ export default function Jsbasico(){
 
 
     }
+=======
+    // EXERCÍCIOS ----------------------------------------------    
+    
+>>>>>>> 42802b9cf4c3fa900bfe0a7a08a476e7fac7034e
 
     return(
         <>

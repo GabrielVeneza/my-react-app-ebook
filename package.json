@@ -13,7 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tabler": "^1.0.0-alpha.8",
-    "vite": "^5.2.6"
+    "vite": "^5.2.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
