@@ -84,27 +84,43 @@ export default function Jsbasico(){
 
     // EXERCÍCIOS ----------------------------------------------
 
-    const numeros = [1,2,3]
+    // const numeros = [1,2,3]
 
-    const [n1,,n3] = numeros
+    // const [n1,,n3] = numeros
 
-    const soma = n1 + n3;
+    // const soma = n1 + n3;
 
-    const numeros2 = [1,2,3,4,5,6,7,8,9]
+    // const numeros2 = [1,2,3,4,5,6,7,8,9]
 
-    const ev = numeros2.filter(num => num >4)
+    // const ev = numeros2.filter(num => num >4)
 
-    const ev2 = ev.map(num => num * 3)
+    // const ev2 = ev.map(num => num * 3)
 
-    const ev3 = ev2.filter(num => num % 2 === 0)
+    // const ev3 = ev2.filter(num => num % 2 === 0)
 
 
-    console.log(ev)
-    console.log(ev2)
-    console.log(ev3)
+    // console.log(ev)
+    // console.log(ev2)
+    // console.log(ev3)
 
     // EXERCÍCIOS ----------------------------------------------
-    
+
+    const alunos = [
+        {id: 1, nome:"Ana"},
+        {id: 2, nome:"Carlos"},
+        {id: 3, nome:"Beatriz"},
+        {id: 4, nome:"João"},
+    ]
+
+    function ListarAlunos(){
+        return(
+            <ul>
+                {alunos.map(aluno => <li key={aluno.id}>{aluno.nome}</li>)}
+            </ul>
+        )
+
+
+    }
 
     return(
         <>
@@ -121,7 +137,9 @@ export default function Jsbasico(){
             </h1> */}
 
             {/* {TodoList} */}
+
+            <ListarAlunos />
+
         </>
     )
 } 
-

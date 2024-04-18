@@ -163,7 +163,7 @@ const person ={
 
 <h3>Utilização no React<h3>
 
-```js
+```jsx
     function TodoList({tasks}){
         return(
             <ul>
@@ -173,3 +173,60 @@ const person ={
     }
 ```
 
+<h1>Componentes e Props</h1>
+
+<b>Exportando Componentes</b>
+
+• Exportação Padrão
+
+```jsx
+    function MeuComponente () {
+        return(
+            <div>Olá Mundo</div>
+        )
+    }
+
+    export default MeuComponente
+```
+
+• Exportação Nomeada
+
+```jsx
+    export function ComponenteA () {
+        return(
+            <div>Olá Mundo</div>
+        )
+    }
+```
+
+<b>Importando Componentes</b>
+
+• Importação Padrão
+
+```jsx
+    import MeuComponente from './MeuComponente'
+```
+
+• Importação de Nomeados
+
+```jsx
+    import {ComponenteA, ComponenteB} from './Componentes'
+```
+
+<b>Aliasing ao Importar: </b>Alterar nome do componente na importação
+
+```jsx
+    import {ComponenteA as PrimeiroComponente} from './Componentes'
+```
+
+<b>Importando Todos os Componente:</b> irá agrupar todos os componentes
+
+```jsx
+    import * as TodosComponentes from './Componentes'
+```
+Utilização:
+```jsx
+    < TodosComponentes.ComponenteA />
+```
+
+ 
