@@ -249,7 +249,7 @@ function Greeting(){
 
 export default Greeting;
 ```
-<h1>Atributos Dinâmicost</h1>
+<h1>Atributos Dinâmicos</h1>
 
 ```jsx
     function handleClick(){
